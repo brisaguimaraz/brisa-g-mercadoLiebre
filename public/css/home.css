@@ -1,0 +1,57 @@
+/* HOME */
+
+.home__header {
+    background-color: var(--amarillo);
+
+}
+
+.home__header--logo {
+    width: 40%;
+    margin: 30px 0 0 30px;
+}
+
+.home__header--searchbar{
+    background-color: white;
+    display: inline-block;
+    margin-left: 30px;
+    padding: 1px 15px 1px 1px;
+    color: var(--grisOscuro);
+    border: 1px solid rgba(0,0,0,0.5);
+}
+
+.fa-search {
+    margin-left: 30px;
+    background-color: var(--grisClaro);
+    padding: 2px;
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 3px;
+}
+
+.home__header--compra {
+    text-align: center;
+    margin: 15px;
+}
+
+.home__header__nav--menu {
+    margin-bottom: 15px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.home__header__nav--account {
+    list-style: none;
+    padding-left: 0;
+}
+
+.burger-menu {
+    text-align: center;
+}
+
+.burger-menu i {
+    background-color: var(--celeste);
+    color: white;
+    padding: 6px;
+    border-radius: 10%;
+    text-align: center;
+}
+
