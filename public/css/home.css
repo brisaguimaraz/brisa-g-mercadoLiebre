@@ -1,8 +1,7 @@
-/* HOME */
+/* HEADER */
 
 .home__header {
     background-color: var(--amarillo);
-
 }
 
 .home__header--logo {
@@ -32,19 +31,24 @@
     margin: 15px;
 }
 
+.home__header__nav {
+    margin: 0 15px;
+}
+
 .home__header__nav--menu {
-    margin-bottom: 15px;
-    list-style: none;
+    display: none;
     padding-left: 0;
 }
 
 .home__header__nav--account {
-    list-style: none;
+    display: none;
     padding-left: 0;
+    margin: 15px 0 15px 0 ;
 }
 
 .burger-menu {
     text-align: center;
+    font-size: large;
 }
 
 .burger-menu i {
@@ -53,6 +57,85 @@
     padding: 6px;
     border-radius: 10%;
     text-align: center;
+    margin: 0 0 10px 0;
+}
+
+.home__div__section--banner img {
+    width: 100%;
+}
+
+/* MAIN */
+
+.home__main {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.home__main h2 {
+    color: var(--grisOscuro);
+    margin: 10px 0;
+    font-size: var(--titulares);
+}
+
+.home__main__section--products article {
+    margin: 10px 0;
+    background-color: #ffffff;
+}
+
+.home__main__section--products article img {
+    width: 100%;
+}
+
+.home__main__section__div--containerTruck {
+    border: 1px solid var(--verde);
+    width: fit-content;
+    padding: 13px;
+    position: relative;
+    border-radius: 50%;
+}
+
+.home__main__section__div--containerTruck i {
+    position: absolute;
+    top: 4px;
+    left: 3px;
+}
+
+.home__main__section__div p {
+    font-size: var(--precios);
+}
+
+.home__main__section__div .home__main__section__div--discount {
+    color: var(--verde);
+    font-size: var(--textoGeneral);
+}
+
+.home__main__section--products h4 {
+    display: none;
+    color: var(--grisOscuro);
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+.home__main__section--sale article {
+    margin: 10px 0;
+    background-color: #ffffff;
+}
+
+.home__main__section--sale article img {
+    width: 100%;
+}
+
+.home__main__section--sale h4 {
+    display: none;
+    color: var(--grisOscuro);
+    margin-top: 15px;
+    font-weight: 500;
+}
+
+
+.home__main__section__div {
+    border-top: 1px solid var(--grisClaro);
+    padding: 15px;
 }
 
 /* FOOTER */
@@ -71,6 +154,53 @@
     font-size: 2em;
     margin-bottom: 10px;
 }
-.home__footer--copyright{
-text-align: left;
+
+.home__footer--copyright {
+    text-align: left;
+}
+
+
+    /* TABLET */
+
+@media (min-width: 361px) {
+ 
+    /* HEADER */
+   .home__header__nav--menu {
+    display: initial;
+   }
+
+   .home__header__nav--account {
+    display: inline-block;
+   }
+
+   .burger-menu {
+    display: none;
+}
+
+    /* MAIN */
+
+    .home__main__section--products article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    .home__main__section--products h4 {
+        display: inline-block;
+    }
+    
+
+    .home__main__section--sale article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } 
+
+    .home__main__section--sale h4 {
+        display: inline-block;
+    }
+
+}
+    
+
+/* DESKTOP */
+
+@media (min-width: 769px) {
+
 }

@@ -1,3 +1,5 @@
+
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -8,7 +10,12 @@ a {
     color: black;
 }
 
+li {
+    list-style: none;
+}
+
 .home {
     font-family: var(--tipografia);
     font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
 }
