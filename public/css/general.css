@@ -19,3 +19,15 @@ li {
     font-size: var(--textoGeneral);
     background-color: var(--grisClaro);
 }
+
+.body__register {
+    font-family: var(--tipografia);
+    font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
+}
+
+.body__login {
+    font-family: var(--tipografia);
+    font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
+}
