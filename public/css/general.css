@@ -1,0 +1,33 @@
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+.home {
+    font-family: var(--tipografia);
+    font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
+}
+
+.body__register {
+    font-family: var(--tipografia);
+    font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
+}
+
+.body__login {
+    font-family: var(--tipografia);
+    font-size: var(--textoGeneral);
+    background-color: var(--grisClaro);
+}
