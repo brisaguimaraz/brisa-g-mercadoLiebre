@@ -1,5 +1,5 @@
 # Brisa Guimaraz
-[Podés ver MercadoLiebre acá](https://mercadoliebre-gxth.onrender.com/)  
+Visualize MercadoLiebre [here](https://mercadoliebre-gxth.onrender.com/)  
 
 ---
 
