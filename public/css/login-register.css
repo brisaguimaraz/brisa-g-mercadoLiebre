@@ -13,7 +13,7 @@
 .register-form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .register-form input {
@@ -30,14 +30,19 @@
     margin-top: 10px;
 }
 
-.register-form button {
+.register-form-button {
     border: none;
     border-radius: 5px;
     background-color: var(--celeste);
     font-family: sans-serif;
     margin: 10px;
     padding: 10px;
+    transition: all, 0.5s;
+    transition-property: background-color;
+}
 
+.register-form-button:hover {
+    background-color: #0022AA;
 }
 
 /* LOGIN */
@@ -51,7 +56,7 @@
 .login-form {
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 70%;
 }
 
 .login-form input {
@@ -63,12 +68,37 @@
 }
 
 
-.login button {
+.login-form-button {
     border: none;
     border-radius: 5px;
     background-color: var(--celeste);
     font-family: sans-serif;
     margin: 10px;
     padding: 10px;
+    transition: all, 0.5s;
+    transition-property: background-color;
+}
 
+.login-form-button:hover {
+    background-color: #0022AA;
+}
+
+@media (min-width:769px) {
+    .register-form {
+        width: 60%;
+    }
+
+    .login-form {
+        width: 60%;
+    }
+}
+
+@media (min-width:1024px) {
+    .register-form {
+        width: 50%;
+    }
+
+    .login-form {
+        width: 50%;
+    }
 }

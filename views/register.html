@@ -23,6 +23,11 @@
          </div>
         <p class="home__header--compra"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito
         </p>
+        <div class="home__header__burger">
+            <button onclick="document.querySelector('.home__header__nav').classList.toggle('showMenu')">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
         <nav class="home__header__nav">
             <ul class="home__header__nav--menu">
                 <li><a href="">Ofertas</a></li>
@@ -36,9 +41,6 @@
                 <li><a href="">Mis compras </a><i class="fas fa-shopping-basket"></i></li>
             </ul>
         </nav>
-        <div class="burger-menu">
-            <i class="fas fa-bars"></i>
-        </div>
     </header>
 
     <main>
@@ -83,8 +85,8 @@
                 <input type="file" name="foto" accept=".jpg .jpeg">
                 <input type="password" name="contraseña" placeholder="Contraseña">
                 <input type="password" name="contraseña" placeholder="Confirme su contraseña" required>
-                <button type="submit">Enviar</button>
-                <button type="reset">Vaciar</button>
+                <button class="register-form-button" type="submit">Enviar</button>
+                <button class="register-form-button" type="reset">Vaciar</button>
             </form>
         </div>
     </main>
